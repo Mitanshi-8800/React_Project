@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.LandingContent{
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+    margin-left: 80px;
+}
+
+.LandingContent_heading h1{
+color: #000;
+font-family: Poppins;
+font-size: 108px;
+font-style: normal;
+font-weight: 800;
+line-height: 102px; /* 94.444% */
+margin-bottom: 30px;
+}
+.LandingContent_heading2{
+    margin-bottom: 30px;
+    width: 404px;
+    height: 91px;
+}
+.LandingContent_heading2 p{
+color:  #5A5959;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.LandingContent_Buttons{
+    display: flex;
+   
+  
+}
+.LandingContent_Buttons1 button{
+color: #FFF;
+display: flex;
+padding: 6px 16px;
+border: none;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: #D01C28;
+margin-right: 40px;
+cursor: pointer;
+
+}
+.LandingContent_Buttons2 button{
+    color: #5A5959;
+    display: flex;
+    padding: 6px 16px;
+    border: 1px solid grey;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: white;
+    cursor: pointer;
+    
+    }
+    .LandingContent_Availablity p{
+color: #5A5959;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.LandingContent_logos{
+    display: flex;
+    gap: 16px;
+}
